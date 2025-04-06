@@ -1,0 +1,9 @@
+services:
+  spooty:
+    image: raiper34/spooty:latest
+    container_name: spooty
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - /path/to/downloads:/spooty/backend/downloads
