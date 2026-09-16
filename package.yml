@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.spooty
+version: 2.0.7
+name: Spooty
+description: "Spotify 下载器"
+min_os_version: "1.5.0"
+homepage: https://github.com/Raiper34/spooty
+author: Raiper34
+locales:
+  zh:
+    description: "Spotify 下载器"
+    name: Spooty
+  en:
+    description: "Spotify downloader"
+    name: Spooty
